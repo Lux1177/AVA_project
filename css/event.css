@@ -1,0 +1,94 @@
+.event-section-container {
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.event-section-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 700px;
+  height: 230px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.event-section-naming {
+  margin-bottom: 4px;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 400;
+  color: blue;
+}
+
+.event-section-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Oswald";
+  text-align: center;
+}
+
+.event-section-text {
+  width: 690px;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: none;
+  text-align: center;
+}
+
+.event-section-bg {
+  position: relative;
+  width: 1520px;
+  height: 520px;
+  top: 300px;
+  background: url(/images/event-section-bg.png) no-repeat 160px 0/1200px 400px;
+}
+
+.event-section-triangle {
+  position: relative;
+}
+
+.event-section-big-triangle {
+  top: 320px;
+  left: 1180px;
+  width: 200px;
+}
+
+.event-section-small-triangle {
+  bottom: 80px;
+  right: 200px;
+  width: 100px;
+}
+
+.event-section-link-text {
+  position: relative;
+  margin: auto;
+  top: 70px;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.event-section-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Oswald";
+}
+
+.event-section-link:hover {
+  text-decoration: underline;
+}
+
+.event-section-link:active {
+  text-decoration: underline;
+  color: rgb(60, 59, 59);
+}

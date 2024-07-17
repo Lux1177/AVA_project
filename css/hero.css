@@ -1,0 +1,114 @@
+.hero-box {
+  width: 500px;
+}
+
+.hero-section {
+  position: relative;
+  padding-top: 180px;
+  margin-bottom: 150px;
+}
+
+.hero-section-bg {
+  position: absolute;
+  top: 0;
+  left: 48%;
+  transform: translate(-50%, 0);
+  width: 1520px;
+  height: 900px;
+  z-index: -1;
+  background: url(/images/herosection-bg.png) no-repeat 700px 35px /740px;
+}
+
+.triangle {
+  position: absolute;
+  filter: drop-shadow(2px 2px 5px #00000026);
+  animation: triangle-rotate 30s linear infinite;
+}
+
+.hero-section-big-triangle {
+  right: 0px;
+  bottom: 150px;
+  width: 320px;
+}
+
+.hero-section-medium-triangle {
+  top: 300px;
+  left: 745px;
+  width: 110px;
+  animation-delay: 1s;
+}
+
+.hero-section-small-trianlge {
+  bottom: 50px;
+  left: 745px;
+  animation-delay: 2s;
+  width: 60px;
+}
+
+@keyframes triangle-rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-section-heading {
+  margin-bottom: 50px;
+  line-height: 66px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 56px;
+}
+
+.hero-section-content-text {
+  margin-bottom: 20px;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Roboto" sans-serif;
+  text-align: justify;
+}
+
+.author {
+  display: flex;
+  gap: 0 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.author-img-container {
+  width: 80px;
+}
+
+.author-img {
+  width: 100%;
+}
+
+.author-name {
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Oswald";
+  font-weight: 400;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 2px;
+  list-style-type: none;
+  color: #ffcc28ff;
+}
+
+.btn-orange {
+  background-color: #ffa322;
+}
+
+.btn-orange:hover {
+  background-color: #f9951a;
+}
+
+.btn-orange:active {
+  background-color: #ffa332dc;
+}

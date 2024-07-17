@@ -1,0 +1,73 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.navigation-list-item:first-child {
+  margin-right: 30px;
+}
+
+.navigation-list-item:not(:first-child) .navigation-list-item-link {
+  padding: 2px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 20px;
+}
+/* LVHA */
+.navigation-list-item-link:link {
+  color: #000;
+}
+
+.navigation-list-item-link:visited {
+  color: #000;
+}
+
+.navigation-list-item-link:hover {
+  background-color: #eee;
+}
+
+.navigation-list-item:first-child .navigation-list-item-link:hover {
+  background-color: transparent;
+}
+
+.navigation-list-item-link:active {
+  color: #999;
+}
+
+.logo {
+  width: 93px;
+}
+
+.btn {
+  padding: 14px 40px;
+  border-radius: 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background-color: var(--primary);
+}
+
+.btn-blue:hover {
+  background-color: var(--primary-dark);
+}
+
+.btn-blue:active {
+  background-color: var(--primary-light);
+}

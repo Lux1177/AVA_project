@@ -1,0 +1,68 @@
+.ad-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 740px;
+  margin-bottom: 200px;
+}
+
+.productivity-section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 540px;
+  height: 520px;
+  padding: 15px 0 20px 0;
+}
+
+.prod-section-header {
+  width: 390px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.prod-section-text {
+  margin-bottom: 36px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.diagram-box {
+  height: 225px;
+}
+
+.diagram-boxes {
+  height: 55px;
+  margin-bottom: 20px;
+}
+
+.diagram-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+
+.diagram {
+  display: flex;
+  height: 4px;
+  background-color: #e6e6e6ff;
+}
+
+.research-diagram-color {
+  width: 459px;
+  background-color: blue;
+}
+
+.education-diagram-color {
+  width: 351px;
+  background-color: purple;
+}
+
+.strategy-diagram-color {
+  width: 389px;
+  background-color: rgb(169, 113, 7);
+}

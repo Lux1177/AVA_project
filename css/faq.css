@@ -1,0 +1,35 @@
+.faq-section {
+  display: flex;
+  justify-content: flex-end;
+  height: 690px;
+  margin-bottom: 100px;
+}
+
+.faq-section-content-box {
+  width: 540px;
+  height: 610px;
+}
+
+.faq-section-bg {
+  position: relative;
+  right: 200px;
+  top: 50px;
+  width: 540px;
+  height: 610px;
+  background: url(/images/faq-section-img.png) no-repeat 0 0/540px 610px;
+}
+
+.faq-section-header {
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+
+.faq-section-text {
+  width: 480px;
+  margin-bottom: 60px;
+  font-size: 15px;
+  line-height: 26px;
+}

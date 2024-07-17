@@ -1,0 +1,67 @@
+.coop-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 670px;
+  padding-top: 130px;
+  margin-bottom: 100px;
+}
+
+.coop-section-header {
+  margin-bottom: 25px;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: blue;
+  font-family: "Oswald";
+}
+
+.coop-section-text {
+  width: 785px;
+  margin-bottom: 38px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.coop-company-logos-box {
+  margin-top: 130px;
+  width: 1200px;
+  height: 170px;
+  border: 1px solid #e6e6e6ff;
+}
+
+.coop-company-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+}
+
+.coop-company-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 141px;
+  height: 44px;
+}
+
+.coop-company-list-item-img {
+  width: 100%;
+  transition: all 0.4s;
+}
+.coop-company-list-item-img:hover {
+  transform: scale(1.2);
+}
+.coop-bg {
+  position: absolute;
+  top: 4700px;
+  left: 38.2%;
+  margin: 0 auto;
+  z-index: -1;
+}
+.coop-bg-img {
+  width: 450px;
+  height: 450px;
+}
